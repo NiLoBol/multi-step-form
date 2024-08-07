@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 400;
+  src: url("/assets/fonts/Ubuntu-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 500;
+  src: url("/assets/fonts/Ubuntu-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 700;
+  src: url("/assets/fonts/Ubuntu-Bold.ttf") format("truetype");
+}
+.next {
+  @apply bg-Marineblue text-White font-medium rounded-lg w-32 h-12;
+}
+.back {
+  @apply text-Marineblue bg-White font-medium rounded-lg w-32 h-12;
+}
+.confirm {
+    @apply bg-Purplishblue text-White font-medium rounded-lg w-32 h-12;
+  }
