@@ -17,8 +17,8 @@ export default function Statebar(props: {
         {props.state}
       </button>
       <div className="basis-8/12 flex-col content-center">
-        <div className=" text-Lightgray">Step {props.state}</div>
-        <div className=" text-white font-bold">{props.name}</div>
+        <div className=" text-Lightgray text-sm uppercase">Step {props.state}</div>
+        <div className=" text-white font-bold uppercase">{props.name}</div>
       </div>
     </div>
   );
